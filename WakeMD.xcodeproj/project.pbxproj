@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEDC34F71CC0D9B40079A574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC34F61CC0D9B40079A574 /* main.m */; };
+		EEDC34FA1CC0D9B40079A574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC34F91CC0D9B40079A574 /* AppDelegate.m */; };
+		EEDC34FD1CC0D9B40079A574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC34FC1CC0D9B40079A574 /* ViewController.m */; };
+		EEDC35001CC0D9B40079A574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDC34FE1CC0D9B40079A574 /* Main.storyboard */; };
+		EEDC35021CC0D9B40079A574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDC35011CC0D9B40079A574 /* Assets.xcassets */; };
+		EEDC35051CC0D9B40079A574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDC35031CC0D9B40079A574 /* LaunchScreen.storyboard */; };
+		EEDC35101CC0D9B40079A574 /* WakeMDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC350F1CC0D9B40079A574 /* WakeMDTests.m */; };
+		EEDC351B1CC0D9B40079A574 /* WakeMDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC351A1CC0D9B40079A574 /* WakeMDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEDC350C1CC0D9B40079A574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC34EA1CC0D9B30079A574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDC34F11CC0D9B30079A574;
+			remoteInfo = WakeMD;
+		};
+		EEDC35171CC0D9B40079A574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC34EA1CC0D9B30079A574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDC34F11CC0D9B30079A574;
+			remoteInfo = WakeMD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEDC34F21CC0D9B30079A574 /* WakeMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDC34F61CC0D9B40079A574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEDC34F81CC0D9B40079A574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEDC34F91CC0D9B40079A574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEDC34FB1CC0D9B40079A574 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEDC34FC1CC0D9B40079A574 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEDC34FF1CC0D9B40079A574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEDC35011CC0D9B40079A574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDC35041CC0D9B40079A574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDC35061CC0D9B40079A574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDC350B1CC0D9B40079A574 /* WakeMDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDC350F1CC0D9B40079A574 /* WakeMDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WakeMDTests.m; sourceTree = "<group>"; };
+		EEDC35111CC0D9B40079A574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDC35161CC0D9B40079A574 /* WakeMDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDC351A1CC0D9B40079A574 /* WakeMDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WakeMDUITests.m; sourceTree = "<group>"; };
+		EEDC351C1CC0D9B40079A574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDC34EF1CC0D9B30079A574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC35081CC0D9B40079A574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC35131CC0D9B40079A574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEDC34E91CC0D9B30079A574 = {
+			isa = PBXGroup;
+			children = (
+				EEDC34F41CC0D9B40079A574 /* WakeMD */,
+				EEDC350E1CC0D9B40079A574 /* WakeMDTests */,
+				EEDC35191CC0D9B40079A574 /* WakeMDUITests */,
+				EEDC34F31CC0D9B30079A574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDC34F31CC0D9B30079A574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC34F21CC0D9B30079A574 /* WakeMD.app */,
+				EEDC350B1CC0D9B40079A574 /* WakeMDTests.xctest */,
+				EEDC35161CC0D9B40079A574 /* WakeMDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDC34F41CC0D9B40079A574 /* WakeMD */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC34F81CC0D9B40079A574 /* AppDelegate.h */,
+				EEDC34F91CC0D9B40079A574 /* AppDelegate.m */,
+				EEDC34FB1CC0D9B40079A574 /* ViewController.h */,
+				EEDC34FC1CC0D9B40079A574 /* ViewController.m */,
+				EEDC34FE1CC0D9B40079A574 /* Main.storyboard */,
+				EEDC35011CC0D9B40079A574 /* Assets.xcassets */,
+				EEDC35031CC0D9B40079A574 /* LaunchScreen.storyboard */,
+				EEDC35061CC0D9B40079A574 /* Info.plist */,
+				EEDC34F51CC0D9B40079A574 /* Supporting Files */,
+			);
+			path = WakeMD;
+			sourceTree = "<group>";
+		};
+		EEDC34F51CC0D9B40079A574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC34F61CC0D9B40079A574 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEDC350E1CC0D9B40079A574 /* WakeMDTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC350F1CC0D9B40079A574 /* WakeMDTests.m */,
+				EEDC35111CC0D9B40079A574 /* Info.plist */,
+			);
+			path = WakeMDTests;
+			sourceTree = "<group>";
+		};
+		EEDC35191CC0D9B40079A574 /* WakeMDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC351A1CC0D9B40079A574 /* WakeMDUITests.m */,
+				EEDC351C1CC0D9B40079A574 /* Info.plist */,
+			);
+			path = WakeMDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDC34F11CC0D9B30079A574 /* WakeMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDC351F1CC0D9B40079A574 /* Build configuration list for PBXNativeTarget "WakeMD" */;
+			buildPhases = (
+				EEDC34EE1CC0D9B30079A574 /* Sources */,
+				EEDC34EF1CC0D9B30079A574 /* Frameworks */,
+				EEDC34F01CC0D9B30079A574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeMD;
+			productName = WakeMD;
+			productReference = EEDC34F21CC0D9B30079A574 /* WakeMD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEDC350A1CC0D9B40079A574 /* WakeMDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDC35221CC0D9B40079A574 /* Build configuration list for PBXNativeTarget "WakeMDTests" */;
+			buildPhases = (
+				EEDC35071CC0D9B40079A574 /* Sources */,
+				EEDC35081CC0D9B40079A574 /* Frameworks */,
+				EEDC35091CC0D9B40079A574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDC350D1CC0D9B40079A574 /* PBXTargetDependency */,
+			);
+			name = WakeMDTests;
+			productName = WakeMDTests;
+			productReference = EEDC350B1CC0D9B40079A574 /* WakeMDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEDC35151CC0D9B40079A574 /* WakeMDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDC35251CC0D9B40079A574 /* Build configuration list for PBXNativeTarget "WakeMDUITests" */;
+			buildPhases = (
+				EEDC35121CC0D9B40079A574 /* Sources */,
+				EEDC35131CC0D9B40079A574 /* Frameworks */,
+				EEDC35141CC0D9B40079A574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDC35181CC0D9B40079A574 /* PBXTargetDependency */,
+			);
+			name = WakeMDUITests;
+			productName = WakeMDUITests;
+			productReference = EEDC35161CC0D9B40079A574 /* WakeMDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDC34EA1CC0D9B30079A574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NCPL;
+				TargetAttributes = {
+					EEDC34F11CC0D9B30079A574 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EEDC350A1CC0D9B40079A574 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEDC34F11CC0D9B30079A574;
+					};
+					EEDC35151CC0D9B40079A574 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEDC34F11CC0D9B30079A574;
+					};
+				};
+			};
+			buildConfigurationList = EEDC34ED1CC0D9B30079A574 /* Build configuration list for PBXProject "WakeMD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDC34E91CC0D9B30079A574;
+			productRefGroup = EEDC34F31CC0D9B30079A574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDC34F11CC0D9B30079A574 /* WakeMD */,
+				EEDC350A1CC0D9B40079A574 /* WakeMDTests */,
+				EEDC35151CC0D9B40079A574 /* WakeMDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDC34F01CC0D9B30079A574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDC35051CC0D9B40079A574 /* LaunchScreen.storyboard in Resources */,
+				EEDC35021CC0D9B40079A574 /* Assets.xcassets in Resources */,
+				EEDC35001CC0D9B40079A574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC35091CC0D9B40079A574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC35141CC0D9B40079A574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDC34EE1CC0D9B30079A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDC34FD1CC0D9B40079A574 /* ViewController.m in Sources */,
+				EEDC34FA1CC0D9B40079A574 /* AppDelegate.m in Sources */,
+				EEDC34F71CC0D9B40079A574 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC35071CC0D9B40079A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDC35101CC0D9B40079A574 /* WakeMDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC35121CC0D9B40079A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDC351B1CC0D9B40079A574 /* WakeMDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEDC350D1CC0D9B40079A574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDC34F11CC0D9B30079A574 /* WakeMD */;
+			targetProxy = EEDC350C1CC0D9B40079A574 /* PBXContainerItemProxy */;
+		};
+		EEDC35181CC0D9B40079A574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDC34F11CC0D9B30079A574 /* WakeMD */;
+			targetProxy = EEDC35171CC0D9B40079A574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEDC34FE1CC0D9B40079A574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDC34FF1CC0D9B40079A574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDC35031CC0D9B40079A574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDC35041CC0D9B40079A574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDC351D1CC0D9B40079A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEDC351E1CC0D9B40079A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDC35201CC0D9B40079A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WakeMD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl..WakeMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEDC35211CC0D9B40079A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WakeMD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl..WakeMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEDC35231CC0D9B40079A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WakeMDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl..WakeMDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMD.app/WakeMD";
+			};
+			name = Debug;
+		};
+		EEDC35241CC0D9B40079A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WakeMDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl..WakeMDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMD.app/WakeMD";
+			};
+			name = Release;
+		};
+		EEDC35261CC0D9B40079A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WakeMDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl..WakeMDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WakeMD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEDC35271CC0D9B40079A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WakeMDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl..WakeMDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WakeMD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDC34ED1CC0D9B30079A574 /* Build configuration list for PBXProject "WakeMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDC351D1CC0D9B40079A574 /* Debug */,
+				EEDC351E1CC0D9B40079A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDC351F1CC0D9B40079A574 /* Build configuration list for PBXNativeTarget "WakeMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDC35201CC0D9B40079A574 /* Debug */,
+				EEDC35211CC0D9B40079A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEDC35221CC0D9B40079A574 /* Build configuration list for PBXNativeTarget "WakeMDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDC35231CC0D9B40079A574 /* Debug */,
+				EEDC35241CC0D9B40079A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEDC35251CC0D9B40079A574 /* Build configuration list for PBXNativeTarget "WakeMDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDC35261CC0D9B40079A574 /* Debug */,
+				EEDC35271CC0D9B40079A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDC34EA1CC0D9B30079A574 /* Project object */;
+}
